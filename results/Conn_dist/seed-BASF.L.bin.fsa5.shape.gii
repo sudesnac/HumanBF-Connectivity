@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<GIFTI xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+       xsi:noNamespaceSchemaLocation="http://brainvis.wustl.edu/caret6/xml_schemas/GIFTI_Caret.xsd"
+       Version="1"
+       NumberOfDataArrays="1">
+   <MetaData>
+      <MD>
+         <Name><![CDATA[AnatomicalStructurePrimary]]></Name>
+         <Value><![CDATA[CortexLeft]]></Value>
+      </MD>
+      <MD>
+         <Name><![CDATA[ParentProvenance]]></Name>
+         <Value><![CDATA[results/funcparc_icafix/group/atlas/seed-BASF.L.avg.fsa5.shape.gii:
+wb_command -metric-resample results/funcparc_icafix/group/atlas/seed-BASF.L.avg.shape.gii /project/6050199/rhaast/04_Resources/templates/hcp/standard_mesh_atlases/resample_fsaverage/fs_LR-deformed_to-fsaverage.L.sphere.59k_fs_LR.surf.gii /project/6050199/rhaast/04_Resources/templates/hcp/standard_mesh_atlases/resample_fsaverage/fsaverage5_std_sphere.L.10k_fsavg_L.surf.gii ADAP_BARY_AREA results/funcparc_icafix/group/atlas/seed-BASF.L.avg.fsa5.shape.gii -area-metrics /project/6050199/rhaast/04_Resources/templates/hcp/standard_mesh_atlases/resample_fsaverage/fs_LR.L.midthickness_va_avg.59k_fs_LR.shape.gii /project/6050199/rhaast/04_Resources/templates/hcp/standard_mesh_atlases/resample_fsaverage/fsaverage5.L.midthickness_va_avg.10k_fsavg_L.shape.gii
+
+]]></Value>
+      </MD>
+      <MD>
+         <Name><![CDATA[ProgramProvenance]]></Name>
+         <Value><![CDATA[Connectome Workbench
+Type: Command Line Application
+Version: 1.4.1
+Qt Compiled Version: 5.7.1
+Qt Runtime Version: 5.7.1
+Commit: unknown
+Commit Date: unknown
+Compiled with OpenMP: YES
+Compiler: c++ (/usr/bin)
+Compiler Version: 6.3.0
+Compiled Debug: NO
+Operating System: Linux
+]]></Value>
+      </MD>
+      <MD>
+         <Name><![CDATA[Provenance]]></Name>
+         <Value><![CDATA[wb_command -metric-find-clusters /project/6050199/rhaast/04_Resources/templates/hcp/standard_mesh_atlases/resample_fsaverage/fsaverage5_std_sphere.L.10k_fsavg_L.surf.gii results/funcparc_icafix/group/atlas/seed-BASF.L.avg.fsa5.shape.gii 0.5 1 results/funcparc_icafix/group/atlas/seed-BASF.L.bin.fsa5.shape.gii]]></Value>
+      </MD>
+      <MD>
+         <Name><![CDATA[WorkingDirectory]]></Name>
+         <Value><![CDATA[/project/6050199/rhaast/03_Ongoing/basal_forebrain]]></Value>
+      </MD>
+   </MetaData>
+   <LabelTable>
+      <Label Key="0" Red="1" Green="1" Blue="1" Alpha="0"><![CDATA[???]]></Label>
+   </LabelTable>
+<DataArray Intent="NIFTI_INTENT_NORMAL"
+           DataType="NIFTI_TYPE_FLOAT32"
+           ArrayIndexingOrder="RowMajorOrder"
+           Dimensionality="1"
+           Dim0="10242"
+           Encoding="GZipBase64Binary"
+           Endian="LittleEndian"
+           ExternalFileName=""
+           ExternalFileOffset="0">
+   <MetaData>
+      <MD>
+         <Name><![CDATA[Name]]></Name>
+         <Value><![CDATA[MEAN]]></Value>
+      </MD>
+   </MetaData>
+   <Data>eJzt3TEOABAMBVA3czVHF4MFkwGN95LuHb+m0pTYU/LtDgCAV8kJAABwRs/eMjgAAADAzMwEAACIpL1hegEAAAAAAAAA8Kdxd8QuCQAAAAAAsMu/VQAAAAAAIjHXBgAAAACIY3Vnx+0dgAgqRUQO7Q==</Data>
+</DataArray>
+</GIFTI>
