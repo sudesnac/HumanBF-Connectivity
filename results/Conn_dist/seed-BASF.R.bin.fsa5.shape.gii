@@ -6,12 +6,12 @@
    <MetaData>
       <MD>
          <Name><![CDATA[AnatomicalStructurePrimary]]></Name>
-         <Value><![CDATA[CortexLeft]]></Value>
+         <Value><![CDATA[CortexRight]]></Value>
       </MD>
       <MD>
          <Name><![CDATA[ParentProvenance]]></Name>
          <Value><![CDATA[results/funcparc_icafix/group/atlas/seed-BASF.R.avg.fsa5.shape.gii:
-wb_command -metric-resample results/funcparc_icafix/group/atlas/seed-BASF.R.avg.shape.gii /project/6050199/rhaast/04_Resources/templates/hcp/standard_mesh_atlases/resample_fsaverage/fs_LR-deformed_to-fsaverage.L.sphere.59k_fs_LR.surf.gii /project/6050199/rhaast/04_Resources/templates/hcp/standard_mesh_atlases/resample_fsaverage/fsaverage5_std_sphere.L.10k_fsavg_L.surf.gii ADAP_BARY_AREA results/funcparc_icafix/group/atlas/seed-BASF.R.avg.fsa5.shape.gii -area-metrics /project/6050199/rhaast/04_Resources/templates/hcp/standard_mesh_atlases/resample_fsaverage/fs_LR.L.midthickness_va_avg.59k_fs_LR.shape.gii /project/6050199/rhaast/04_Resources/templates/hcp/standard_mesh_atlases/resample_fsaverage/fsaverage5.L.midthickness_va_avg.10k_fsavg_L.shape.gii
+wb_command -metric-resample results/funcparc_icafix/group/atlas/seed-BASF.R.avg.shape.gii /project/6050199/rhaast/04_Resources/templates/hcp/standard_mesh_atlases/resample_fsaverage/fs_LR-deformed_to-fsaverage.R.sphere.59k_fs_LR.surf.gii /project/6050199/rhaast/04_Resources/templates/hcp/standard_mesh_atlases/resample_fsaverage/fsaverage5_std_sphere.R.10k_fsavg_R.surf.gii ADAP_BARY_AREA results/funcparc_icafix/group/atlas/seed-BASF.R.avg.fsa5.shape.gii -area-metrics /project/6050199/rhaast/04_Resources/templates/hcp/standard_mesh_atlases/resample_fsaverage/fs_LR.R.midthickness_va_avg.59k_fs_LR.shape.gii /project/6050199/rhaast/04_Resources/templates/hcp/standard_mesh_atlases/resample_fsaverage/fsaverage5.R.midthickness_va_avg.10k_fsavg_R.shape.gii
 
 ]]></Value>
       </MD>
@@ -33,7 +33,7 @@ Operating System: Linux
       </MD>
       <MD>
          <Name><![CDATA[Provenance]]></Name>
-         <Value><![CDATA[wb_command -metric-find-clusters /project/6050199/rhaast/04_Resources/templates/hcp/standard_mesh_atlases/resample_fsaverage/fsaverage5_std_sphere.L.10k_fsavg_L.surf.gii results/funcparc_icafix/group/atlas/seed-BASF.R.avg.fsa5.shape.gii 0.5 1 results/funcparc_icafix/group/atlas/seed-BASF.R.bin.fsa5.shape.gii]]></Value>
+         <Value><![CDATA[wb_command -metric-find-clusters /project/6050199/rhaast/04_Resources/templates/hcp/standard_mesh_atlases/resample_fsaverage/fsaverage5_std_sphere.R.10k_fsavg_R.surf.gii results/funcparc_icafix/group/atlas/seed-BASF.R.avg.fsa5.shape.gii 0.5 1 results/funcparc_icafix/group/atlas/seed-BASF.R.bin.fsa5.shape.gii]]></Value>
       </MD>
       <MD>
          <Name><![CDATA[WorkingDirectory]]></Name>
@@ -58,6 +58,6 @@ Operating System: Linux
          <Value><![CDATA[MEAN]]></Value>
       </MD>
    </MetaData>
-   <Data>eJzt3EEKwCAMBEB/Vp/Wp0spQinSQw6mgRnwnpubBW2NmPPIngAA+Cs5IahnDwAAQDUze8vgAAC1yG8AsIc7FwAAqOTaYeYBAAAAiNItAAAAANT2/kNA3wMAAAAAAER4twqwUc8eAACozu4GAHD76rWfvbf8BAAAAACQb9XZ6nEBKhiAhhYk</Data>
+   <Data>eJzt3EEKgCAQBVBvlkfr6BExUNEiyRiL98D9gJvPd7AU+pin7Al4i7sFAID/WXO+rA8JavYAAGOJTLI/AAAAAAC00a8CAPRxlankLAAAgCN7vwAAAABt9CgAAAAEb+4APFazBwAAoEV0AOdOwL/cAAAAAGPT1wAAAAAAX3NnF82+GgCbBVJ4Gd8=</Data>
 </DataArray>
 </GIFTI>
