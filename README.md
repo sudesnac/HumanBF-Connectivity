@@ -16,9 +16,9 @@ These workflow will create a .npz file containing all subject's connectivity mat
 
 ## Data
 
-Contains the following data file necessary to run the analysis provided in the notebooks.
-BF roi: seed_1p6mm.nii.gz - used to construct the connectivity matrices and compute the gradients across BF.
-BF segmented roi: BF_masked_fullB_1p6mm.dseg.nii.gz - ch123 and ch4a/ch4p labeled roi used for statistical analysis.
+Contains the following data file necessary to run the analysis provided in the notebooks.\
+BF roi: seed_1p6mm.nii.gz - used to construct the connectivity matrices and compute the gradients across BF.\
+BF segmented roi: BF_masked_fullB_1p6mm.dseg.nii.gz - ch123 and ch4a/ch4p labeled roi used for statistical analysis.\
 Yeo network: hcp_mmp10_yeo7_modes.txt - reference for Yeo 7 network mapped onto HCP-MMP1 parcellation from [here](https://pubmed.ncbi.nlm.nih.gov/30793087/). 
 
 ## Notebooks
