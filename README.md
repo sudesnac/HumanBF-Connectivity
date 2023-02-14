@@ -21,27 +21,32 @@ BF roi: seed_1p6mm.nii.gz - used to construct the connectivity matrices and comp
 BF segmented roi: BF_masked_fullB_1p6mm.dseg.nii.gz - ch123 and ch4a/ch4p labeled roi used for statistical analysis.\
 Yeo network: hcp_mmp10_yeo7_modes.txt - reference for Yeo 7 network mapped onto HCP-MMP1 parcellation from [here](https://pubmed.ncbi.nlm.nih.gov/30793087/). 
 
+## Code
+
+Python code for computing geodesic distance is provided here. 
+
 ## Notebooks
 
 The notebook folder contains the following jupyter notebooks for running the analysis and creating the figures used in this paper. 
 
-### Notebook: Diff_gradients
+### Diff_gradients
+
 
 {More detailed description of this notebook, what data is required to run through it, any changes users will need to make to paths and that kind of thing...}
 
-### Notebook: Func_gradients
+### Func_gradients
 
 {Same as Notebook 1}
 
-### Notebook: g-wCtx_networks
+### g-wCtx_networks
 
 {Same as Notebook 1}
 
-### Notebook: gradient_correlation
+### gradient_correlation
 
 {Same as Notebook 1}
 
-### Notebook: connectivity_distance
+### connectivity_distance
 
 {Same as Notebook 1}
 
