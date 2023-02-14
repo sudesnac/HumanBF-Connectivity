@@ -25,13 +25,14 @@ Yeo network: hcp_mmp10_yeo7_modes.txt - reference for Yeo 7 network mapped onto 
 
 Python code for computing geodesic distance is provided here. 
 
-## Notebooks
+## Notebooks and Results
 
-The notebook folder contains the following jupyter notebooks for running the analysis and creating the figures used in this paper. 
+The notebook folder contains the following jupyter notebooks for running the analysis and creating the figures used in this paper.\
+The results folder has sub-folders each containing respective resultant data (such as .nii.gz and .gii files) and figures inside the figures folder. Reference surface for fsa-10k can be downloaded from [here](https://github.com/MICA-MNI/BrainSpace/tree/master/brainspace/datasets/surfaces) for visualizing gii results files using workbench.
 
 ### Diff_gradients
 
-
+This notebook contains the code to compute diffusion gradients, diffusion gradient-weighted cortical maps, statistical analysis of the gradients against the histologically defined subregions and respective figures (Fig. 1B,C,D left and Fig. 2A top). 
 {More detailed description of this notebook, what data is required to run through it, any changes users will need to make to paths and that kind of thing...}
 
 ### Func_gradients
@@ -49,8 +50,3 @@ The notebook folder contains the following jupyter notebooks for running the ana
 ### connectivity_distance
 
 {Same as Notebook 1}
-
-## Results
-
-{Description of results/ in terms of which notebooks they come from and how they relate to specific data and figures mentioned in the publication text}
-Reference surface for fsa-10k can be downloaded from [here](https://github.com/MICA-MNI/BrainSpace/tree/master/brainspace/datasets/surfaces) for visualizing gii results files in workbench.
