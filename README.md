@@ -12,14 +12,15 @@ BF roi used is included in the data folder. This roi is created based on the [pr
 All diffusion and functional data used for this study is downloded from [Human Connectome (HCP) project](http://www.humanconnectomeproject.org/).
 The structural (diffusion) connectivity matrix is created using the [workflow](https://github.com/sudesnac/diffparc-smk). 
 The functional connectivity matrix is created using the [workflow](https://github.com/khanlab/subcorticalparc-smk).
-These workflow will create a .npz file containing all subject's connectivity matrices - the files should be placed in the data folder for running the analysis provided in the notebook. 
+These workflow will create a .npz file containing all subject's connectivity matrices - the files should be placed in the data folder for running the analyses provided in the notebook. 
 
 ## Data
 
 Contains the following data file necessary to run the analysis provided in the notebooks.\
-BF roi: seed_1p6mm.nii.gz - used to construct the connectivity matrices and compute the gradients across BF.\
-BF segmented roi: BF_masked_fullB_1p6mm.dseg.nii.gz - ch123 and ch4a/ch4p labeled roi used for statistical analysis.\
-Yeo network: hcp_mmp10_yeo7_modes.txt - reference for Yeo 7 network mapped onto HCP-MMP1 parcellation from [here](https://pubmed.ncbi.nlm.nih.gov/30793087/). 
+**BF roi**: _seed_1p6mm.nii.gz_ - used to construct the connectivity matrices and compute the gradients across BF.\
+**BF segmented roi**: _BF_masked_fullB_1p6mm.dseg.nii.gz_ - ch123 and ch4a/ch4p labeled roi used for statistical analysis.\
+**HCP-MMP1 annot files**: _{lh,rh}_HCP-MMP1_fsa10.annot_ - HCP-MMP1 parcellation annotation files in fsa-10k space for [brainspace](https://brainspace.readthedocs.io/en/stable/index.html) visualization.\
+**Yeo network**: _hcp_mmp10_yeo7_modes.txt_ - reference for Yeo 7 network mapped onto HCP-MMP1 parcellation from [here](https://pubmed.ncbi.nlm.nih.gov/30793087/). 
 
 ## Code
 
