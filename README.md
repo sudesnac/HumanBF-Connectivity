@@ -10,8 +10,8 @@ This repository contains codes and data in support of the paper (tentative) "Mul
 
 BF roi used is included in the data folder. This roi is created based on the [probabilistic atlas](https://pubmed.ncbi.nlm.nih.gov/18585468/).
 All diffusion and functional data used for this study is downloded from [Human Connectome (HCP) project](http://www.humanconnectomeproject.org/).
-The structural (diffusion) connectivity matrix is created using the [workflow](https://github.com/sudesnac/diffparc-smk). 
-The functional connectivity matrix is created using the [workflow](https://github.com/khanlab/subcorticalparc-smk).
+The structural (diffusion) connectivity matrix is created using this [workflow](https://github.com/sudesnac/diffparc-smk). 
+The functional connectivity matrix is created using this [workflow](https://github.com/khanlab/subcorticalparc-smk).
 These workflow will create a .npz file containing all subject's connectivity matrices - the files should be placed in the data folder for running the analyses provided in the notebook. 
 
 ## Data
@@ -33,7 +33,7 @@ The results folder has sub-folders each containing respective resultant data (su
 
 ### Diff_gradients
 
-This notebook contains the code to compute diffusion gradients, diffusion gradient-weighted cortical maps, statistical analysis of the gradients against the histologically defined subregions and respective figures (Fig. 1B,C,D left and Fig. 2A top). 
+This notebook contains the code to compute diffusion gradients, diffusion gradient-weighted cortical maps, statistical analysis of the gradients against the histologically defined subregions and respective figures (Fig. 1B,C,D left). 
 {More detailed description of this notebook, what data is required to run through it, any changes users will need to make to paths and that kind of thing...}
 
 ### Func_gradients
