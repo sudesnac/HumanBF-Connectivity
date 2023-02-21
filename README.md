@@ -20,7 +20,11 @@ Contains the following data file necessary to run the analysis provided in the n
 **BF roi**: _seed_1p6mm.nii.gz_ - used to construct the connectivity matrices and compute the gradients across BF.\
 **BF segmented roi**: _BF_masked_fullB_1p6mm.dseg.nii.gz_ - ch123 and ch4a/ch4p labeled roi used for statistical analysis.\
 **HCP-MMP1 annot files**: _{lh,rh}_HCP-MMP1_fsa10.annot_ - HCP-MMP1 parcellation annotation files in fsa-10k space for [brainspace](https://brainspace.readthedocs.io/en/stable/index.html) visualization.\
-**Yeo network**: _hcp_mmp10_yeo7_modes.txt_ - reference for Yeo 7 network mapped onto HCP-MMP1 parcellation from [here](https://pubmed.ncbi.nlm.nih.gov/30793087/). 
+**Yeo network**: _hcp_mmp10_yeo7_modes.txt_ - reference for Yeo 7 network mapped onto HCP-MMP1 parcellation from [here](https://pubmed.ncbi.nlm.nih.gov/30793087/).\
+**Glasser 360 fsa5 label files**:_glasser_360_fsaverage5_{lh,rh}label.gii_ - Glasser parcellation labels in fsa10k for parcellating whole brain data (such as the geodesic, myelin and FEOBV data).\
+**BF surface label**:_seed-BASF.{L,R}.bin.fsa5.shape.gii_ - BF seed label in surface space (see Methods section of the publication for the details of creating this file).\
+**Geodesic distance files**:_seed-BASF_geodesic-distance-no-zeros.pial.{lh,rh}.shape.gii_ - BF-cortical geodesic distance (see Methods section of the publication for the details).\
+**Myelin map**:_source-hcps1200_desc-myelinmap_space-fsaverage5_den-10k_hemi-{L,R}_feature.func.gii_ - T1w/T2w ratio as a proxy measure myelin maps used in this study.
 
 ## Code
 
@@ -33,21 +37,20 @@ The results folder has sub-folders each containing respective resultant data (su
 
 ### Diff_gradients
 
-This notebook contains the code to compute diffusion gradients, diffusion gradient-weighted cortical maps, statistical analysis of the gradients against the histologically defined subregions and respective figures (Fig. 1B,C,D left). 
-{More detailed description of this notebook, what data is required to run through it, any changes users will need to make to paths and that kind of thing...}
+This notebook contains the code to compute diffusion gradients, diffusion gradient-weighted cortical maps, statistical analysis of the gradients against the histologically defined subregions and respective figures (Fig. 1B,C,D left, Fig.2A top). 
 
 ### Func_gradients
 
-{Same as Notebook 1}
+This notebook contains the code to compute functional gradients, functional gradient-weighted cortical maps, statistical analysis of the gradients against the histologically defined subregions and respective figures (Fig. 1B,C,D right, Fig.2B top).
 
 ### g-wCtx_networks
 
-{Same as Notebook 1}
+This notebook is used to compute the distribution of cortical gradient-weighted values (diffusion and functional) decomposed into seven functional networks as defined by [Yeo 2011](https://journals.physiology.org/doi/full/10.1152/jn.00338.2011). (Fig.2ABC bottom)
 
 ### gradient_correlation
 
-{Same as Notebook 1}
+This notebook is for calculating gradient correlations betweeen the diffusion and functional gradients and computing the weighted residuls in BF as well as cortical space. (see Methods section of the publication for the details of this calculation.) (Fig.2C top)
 
 ### connectivity_distance
 
-{Same as Notebook 1}
+This notebook contains visualization of geodesic distance, myelin maps and FEOBV data; parcellation and rescaling of these data as well as correlation (scatter plots and spin tests using null model) of these maps with other connectivity and residual data. (Fig.3,4, and 5 top)
