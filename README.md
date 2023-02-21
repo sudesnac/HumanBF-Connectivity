@@ -23,7 +23,7 @@ Contains the following data file necessary to run the analysis provided in the n
 **Yeo network**: _hcp_mmp10_yeo7_modes.txt_ - reference for Yeo 7 network mapped onto HCP-MMP1 parcellation from [here](https://pubmed.ncbi.nlm.nih.gov/30793087/).\
 **Glasser 360 fsa5 label files**:_glasser_360_fsaverage5_{lh,rh}label.gii_ - Glasser parcellation labels in fsa10k for parcellating whole brain data (such as the geodesic, myelin and FEOBV data).\
 **BF surface label**:_seed-BASF.{L,R}.bin.fsa5.shape.gii_ - BF seed label in surface space (see Methods section of the publication for the details of creating this file).\
-**Geodesic distance files**:_seed-BASF_geodesic-distance-no-zeros.pial.{lh,rh}.shape.gii_ - BF-cortical geodesic distance (see Methods section of the publication for the details.)
+**Geodesic distance files**:_seed-BASF_geodesic-distance-no-zeros.pial.{lh,rh}.shape.gii_ - BF-cortical geodesic distance (see Methods section of the publication for the details).\
 **Myelin map**:_source-hcps1200_desc-myelinmap_space-fsaverage5_den-10k_hemi-{L,R}_feature.func.gii_ - T1w/T2w ratio as a proxy measure myelin maps used in this study.
 
 ## Code
