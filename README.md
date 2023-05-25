@@ -1,3 +1,5 @@
+[![DOI](https://zenodo.org/badge/599280727.svg)](https://zenodo.org/badge/latestdoi/599280727)
+
 # Human Basal Forebrain (BF) Multimodal Connectivity 
 
 This repository contains codes and data in support of the paper (tentative) "Multimodal gradients of human basal forebrain connectivity" 
