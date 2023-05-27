@@ -6,7 +6,7 @@ This repository contains codes and data in support of the paper (tentative) "Mul
 
 ## Publications
 
-{Link to preprint DOI, publication DOI once it's ready...}
+preprint: [Multimodal gradients of human basal forebrain connectivity] (https://www.biorxiv.org/content/10.1101/2023.05.26.541324v1)
 
 ## Prerequisites
 
