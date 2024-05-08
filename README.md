@@ -39,20 +39,24 @@ The results folder has sub-folders each containing respective resultant data (su
 
 ### Diff_gradients
 
-This notebook contains the code to compute diffusion gradients, diffusion gradient-weighted cortical maps, statistical analysis of the gradients against the histologically defined subregions and respective figures (Fig. 1B,C,D left, Fig.2A top). 
+This notebook contains the code to compute diffusion gradients, diffusion gradient-weighted cortical maps, statistical analysis of the gradients against the histologically defined subregions and respective figures (Fig. 2A,C,D left). 
 
 ### Func_gradients
 
-This notebook contains the code to compute functional gradients, functional gradient-weighted cortical maps, statistical analysis of the gradients against the histologically defined subregions and respective figures (Fig. 1B,C,D right, Fig.2B top).
+This notebook contains the code to compute functional gradients, functional gradient-weighted cortical maps, statistical analysis of the gradients against the histologically defined subregions and respective figures (Fig. 2A,C,D right).
 
 ### g-wCtx_networks
 
-This notebook is used to compute the distribution of cortical gradient-weighted values (diffusion and functional) decomposed into seven functional networks as defined by [Yeo 2011](https://journals.physiology.org/doi/full/10.1152/jn.00338.2011). (Fig.2ABC bottom)
+This notebook is used to compute the distribution of cortical gradient-weighted values (diffusion and functional) decomposed into seven functional networks as defined by [Yeo 2011](https://journals.physiology.org/doi/full/10.1152/jn.00338.2011). 
 
 ### gradient_correlation
 
-This notebook is for calculating gradient correlations betweeen the diffusion and functional gradients and computing the weighted residuls in BF as well as cortical space. (see Methods section of the publication for the details of this calculation.) (Fig.2C top)
+This notebook is for calculating gradient correlations betweeen the diffusion and functional gradients and computing the weighted residuls in BF as well as cortical space. (see Methods section of the publication for the details of this calculation.) (Fig.2E,F, and Fig.3)
 
 ### connectivity_distance
 
-This notebook contains visualization of geodesic distance, myelin maps and FEOBV data; parcellation and rescaling of these data as well as correlation (scatter plots and spin tests using null model) of these maps with other connectivity and residual data. (Fig.3,4, and 5 top)
+This notebook contains visualization of fiber length, geodesic distance and FEOBV data; parcellation and rescaling of these data as well as correlation (scatter plots and spin tests using null model) of these maps with other connectivity and residual data. (Fig. 4,5,6 and 8)
+
+### extra_analysis
+
+This notebook contains cross-validation analyses  (split-half or leave-one-out) across the 173 individuals used (Supplemental Fig. 3 and 4)
