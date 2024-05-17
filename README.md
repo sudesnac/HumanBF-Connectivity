@@ -26,7 +26,9 @@ Contains the following data file necessary to run the analysis provided in the n
 **Glasser 360 fsa5 label files**:_glasser_360_fsaverage5_{lh,rh}label.gii_ - Glasser parcellation labels in fsa10k for parcellating whole brain data (such as the geodesic, myelin and FEOBV data).\
 **BF surface label**:_seed-BASF.{L,R}.bin.fsa5.shape.gii_ - BF seed label in surface space (see Methods section of the publication for the details of creating this file).\
 **Geodesic distance files**:_seed-BASF_geodesic-distance-no-zeros.pial.{lh,rh}.shape.gii_ - BF-cortical geodesic distance (see Methods section of the publication for the details).\
-**Myelin map**:_source-hcps1200_desc-myelinmap_space-fsaverage5_den-10k_hemi-{L,R}_feature.func.gii_ - T1w/T2w ratio as a proxy measure myelin maps used in this study.
+**Myelin map**:_source-hcps1200_desc-myelinmap_space-fsaverage5_den-10k_hemi-{L,R}_feature.func.gii_ - T1w/T2w ratio as a proxy measure myelin maps used in this study.\
+**Streamline counts**:_Diff_streamline-counts_summed_seed-BASF_voxels.xlsx_ excel file detailing the streamlines recieved by the cortical parcels from the BF.\
+**Human and Mouse cross-validation**:_Figure7G_Mouse_Human_PET_rawData.xlsx_ excel file containing the raw data values for the cross-validation analysis done in Fig. 7G. The atlas are available at [Mouse](https://atlas.brain-map.org/) and [Human Yeo 2011](https://surfer.nmr.mgh.harvard.edu/fswiki/CorticalParcellation_Yeo2011). Branch count for mouse data shown in Fig.7B was done using the [SI Appendix, Fig.S7](https://www.pnas.org/doi/full/10.1073/pnas.1703601115#supplementary-materials) of [Li et al. 2017](https://www.pnas.org/doi/full/10.1073/pnas.1703601115).
 
 ## Code
 
@@ -55,8 +57,8 @@ This notebook is for calculating gradient correlations betweeen the diffusion an
 
 ### connectivity_distance
 
-This notebook contains visualization of fiber length, geodesic distance and FEOBV data; parcellation and rescaling of these data as well as correlation (scatter plots and spin tests using null model) of these maps with other connectivity and residual data. (Fig. 4,5,6 and 8)
+This notebook contains visualization of streamline counts, fiber length, wiring cost, geodesic distance and FEOBV data; parcellation and rescaling of these data as well as correlation (scatter plots and spin tests using null model) of these maps with other connectivity and residual data. (Fig. 4,5,6,8, and Supplemental Fig.S5,S6)
 
 ### extra_analysis
 
-This notebook contains cross-validation analyses  (split-half or leave-one-out) across the 173 individuals used (Supplemental Fig. 3 and 4)
+This notebook contains validation analyses to examine the stability of\ 1. gradients, by split-half and leave-one-out across the 173 individuals used in this study (Supplemental Fig.S3) and\ 2. structure- function tethering (Residual BF) across different gradient component pairs (Supplemental Fig.S4).
