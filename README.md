@@ -14,11 +14,11 @@ BF roi used is included in the data folder. This roi is created based on the [pr
 All diffusion and functional data used for this study is downloded from [Human Connectome (HCP) project](http://www.humanconnectomeproject.org/).
 The structural (diffusion) connectivity matrix is created using this [workflow](https://github.com/sudesnac/diffparc-smk). 
 The functional connectivity matrix is created using this [workflow](https://github.com/khanlab/subcorticalparc-smk).
-These workflow will create a .npz file containing all subject's connectivity matrices - the files should be placed in the data folder for running the analyses provided in the notebook. 
+These workflow will create a .npz file containing all subject's connectivity matrices - the files should be placed in the data folder for running the analyses provided in the notebooks. 
 
 ## Data
 
-Contains the following data file necessary to run the analysis provided in the notebooks.\
+Contains the following data file necessary to run the analysis provided in the notebooks.
 | **Data**                         | **File**                                                                            | **Description**                                                                                                                                                                                                                                         |
 |----------------------------------|-------------------------------------------------------------------------------------|---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | BF ROI                           | `seed_1p6mm.nii.gz`                                                                   | Used to construct the connectivity matrices and compute the gradients across the BF                                                                                                                                                                     |
