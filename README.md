@@ -32,7 +32,7 @@ Contains the following data file necessary to run the analysis provided in the n
 | Streamline counts                | `Diff_streamline-counts_summed_seed-BASF_voxels.xlsx`                                 | Excel file detailing the streamlines recieved by the cortical parcels from the BF                                                                                                                                                                       |
 | Human and Mouse cross-validation | `Figure7G_Mouse_Human_PET_rawData.xlsx`                                               | Excel file containing the raw data values for the cross-validation analysis done in Fig. 7G|
 
-The mouse and human atlases are available at the [Allen Brain Atlas](https://atlas.brain-map.org/) and [Yeo et al. (2011)](https://surfer.nmr.mgh.harvard.edu/fswiki/CorticalParcellation_Yeo2011), respectively. Branch counts for the mouse data shown in Fig. 7B was done using the [SI Appendix, Fig. S7](https://www.pnas.org/doi/full/10.1073/pnas.1703601115#supplementary-materials) of [Li et al. 2017](https://www.pnas.org/doi/full/10.1073/pnas.1703601115). 
+The mouse and human atlases are available at the [Allen Brain Atlas](https://atlas.brain-map.org/) and [Yeo et al. (2011)](https://surfer.nmr.mgh.harvard.edu/fswiki/CorticalParcellation_Yeo2011), respectively. Branch counts for the mouse data shown in Fig. 7B was done using the [SI Appendix, Fig. S7](https://www.pnas.org/doi/full/10.1073/pnas.1703601115#supplementary-materials) of [Li et al. (2017)](https://www.pnas.org/doi/full/10.1073/pnas.1703601115). 
 
 ## Code
 
