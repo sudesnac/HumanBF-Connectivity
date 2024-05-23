@@ -6,7 +6,7 @@ This repository contains codes and data in support of the paper (tentative) "Mul
 
 ## Publications
 
-Preprint: [Multimodal gradients of human basal forebrain connectivity](https://www.biorxiv.org/content/10.1101/2023.05.26.541324v1)
+Preprint: [Multimodal gradients of human basal forebrain connectivity](https://www.biorxiv.org/content/10.1101/2023.05.26.541324v2.full)
 
 ## Prerequisites
 
@@ -65,6 +65,6 @@ This notebook contains visualization of streamline counts, fiber length, wiring 
 
 ### extra_analysis
 
-This notebook contains validation analyses to examine the stability of<br> 
+This notebook contains validation analyses to examine the stability of <br> 
 1. gradients, by split-half and leave-one-out across the 173 individuals used in this study (Supplemental Fig.S3) and <br>
 2. structure- function tethering (Residual BF) across different gradient component pairs (Supplemental Fig.S4).
