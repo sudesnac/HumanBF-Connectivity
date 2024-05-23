@@ -65,4 +65,6 @@ This notebook contains visualization of streamline counts, fiber length, wiring 
 
 ### extra_analysis
 
-This notebook contains validation analyses to examine the stability of\ 1. gradients, by split-half and leave-one-out across the 173 individuals used in this study (Supplemental Fig.S3) and\ 2. structure- function tethering (Residual BF) across different gradient component pairs (Supplemental Fig.S4).
+This notebook contains validation analyses to examine the stability of<br> 
+1. gradients, by split-half and leave-one-out across the 173 individuals used in this study (Supplemental Fig.S3) and <br>
+2. structure- function tethering (Residual BF) across different gradient component pairs (Supplemental Fig.S4).
