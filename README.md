@@ -2,11 +2,7 @@
 
 # Human Basal Forebrain (BF) Multimodal Connectivity 
 
-This repository contains code and data in support of the paper "Multimodal gradients of human basal forebrain connectivity" 
-
-## Publications
-
-Preprint: [Multimodal gradients of human basal forebrain connectivity](https://www.biorxiv.org/content/10.1101/2023.05.26.541324v3)
+This repository contains code and data in support of the paper "Multimodal gradients of basal forebrain connectivity across the neocortex": that can be found [here](https://www.nature.com/articles/s41467-024-53148-x).
 
 ## Prerequisites
 
